@@ -31,7 +31,7 @@ Schedule your message section ends here*/
 
 // Replace My Contact Name with the name 
 // of your WhatsApp contact or group e.g. title="Peter Parker" 
-name = "JU : IEE UNION (2019-'23)"
+name = "bla bla bla"
 
 	simulateMouseEvents(document.querySelector('[title="' + name + '"]'), 'mousedown'); 
 
