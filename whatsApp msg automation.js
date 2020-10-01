@@ -31,25 +31,28 @@ Schedule your message section ends here*/
 
 // Replace My Contact Name with the name 
 // of your WhatsApp contact or group e.g. title="Peter Parker" 
-name = "bla bla bla"
+const name = "bla bla bla"
 
 	simulateMouseEvents(document.querySelector('[title="' + name + '"]'), 'mousedown'); 
 
-function startTimer() 
+const startTimer = ()=> 
 { 
 	setTimeout(myFunc, 3000); 
 } 
 
 startTimer(); 
 
-var eventFire = (MyElement, ElementType) => { 
+const eventFire = (MyElement, ElementType) => { 
 	var MyEvent = document.createEvent("MouseEvents"); 
 	MyEvent.initMouseEvent 
 	(ElementType, true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null); 
 	MyElement.dispatchEvent(MyEvent); 
 }; 
 
-function myFunc() 
+
+
+
+const myFunc = () => 
 { 
 
 	messageBox = document.querySelectorAll("[contenteditable='true']")[0]; 
